@@ -1,5 +1,5 @@
 name: Continuous Integration
- branches:
+branches:
   only:
     - main
 
