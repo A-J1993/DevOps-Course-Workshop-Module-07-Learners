@@ -1,7 +1,8 @@
 name: Continuous Integration
-branches:
-  only:
-    - main
+trigger:
+  branches:
+    only:
+      - main
 
 on: [push]                      # Will make the workflow run every time you push to any branch
 
